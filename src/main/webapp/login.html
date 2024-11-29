@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 class="form-title">Login Form</h1>
+            <div class="tab">
+                <button class="tab-btn active">Login</button>
+                <a href="register.html"><button class="tab-btn">Signup</button></a>
+            </div>
+            <form action="login_Check" method="get" class="login-form">
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="signup-link">
+                    Create an account <a href="register.html">Signup now</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
